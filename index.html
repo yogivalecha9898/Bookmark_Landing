@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Bookmark landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row ">
+        <nav class="navbar navbar-expand-md col-12">
+            <a href="#" class="navbar-brand col-4"><img src="./images/logo-bookmark.svg" alt="Logo"></a>
+            <ul class="navbar-nav offset-3 d-none col-5 d-md-flex justify-content-between">
+              <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">LOGIN</a></li>
+            </ul>
+            <img src="./images/icon-hamburger.svg" class="border d-flex d-md-none" alt="Hamburger">
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row ">
+      <div class="col-md-6 mt-md-1 mt-2 col-12">
+        <img src="./images/illustration-hero.svg" class="col-12 w-100" alt="Hero" class="col-10">
+      </div>
+      <div class="col-md-6 col-12 order-md-first">
+        <p class="col-md-8 col-12 text-center text-md-left h2 mb-3 req_head">
+          A simple Bookmark Manager
+        </p>
+        <p class="col-md-8 col-12 text-center text-md-left mb-3 req_para">
+          A clean and simple interface to oraganize your favorite websites. 
+          Open a new browser tab and see your websites load instantly for free.
+        </p>
+        <button class="col-5 offset-1 offset-md-0 btn btn-primary shadow mt-3 req_para1">Get it on Chrome</button>
+        <button class="col-5 btn btn-light shadow mt-3 req_para1">Get it on Firefox</button>
+      </div>
+      <div class="col-12 mt-5">
+        <p class="h1 offset-md-3 text-center col-md-6 col-12 req_head">Features</p>
+        <p class="col-md-6 col-12 text-center offset-md-3 req_para">Our aim is to make it quick and easy for you to access your favourite websites. 
+          Your bookmarks sync between your devices so you can access them on the go.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row mt-5">
+      <div class="offset-md-3 offset-2 col-md-6 d-md-flex">
+        <p class="col-md-4 col-8 hov text-center mt-3 mt-md-0 position-relative">Simple Bookmarking
+        </p>
+        <p class="col-md-4 col-8 hov text-center position-relative">Speedy Searching
+        </p>
+        <p class="col-md-4 col-8 hov text-center position-relative">Easy Sharing
+        </p>
+        
+      </div>
+      <div class="col-12 d-md-flex align-items-center mt-md-5">
+        <div class="col-md-6 col-12">
+          <img src="./images/illustration-features-tab-1.svg" class="w-100" alt="Tab1">
+        </div>
+        <div class="offset-md-1 col-md-5 col-12">
+          <p class="h2 mt-3 mb-3 text-md-left text-center req_head">Bookmark in one click</p>
+          <p class=" text-md-left text-center req_para">Organize your bookmarks however you like. Our simple drag-and-drop interface 
+            gives you complete control over how you manage your favourite sites.</p>
+            <button class="btn d-none d-md-block btn-primary mt-md-3">More Info</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container my-5">
+    <div class="container-fluid mt-5">
+      <p class="col-12 text-center h2">
+        Download the extension
+      </p>
+      <p class="col-12 text-center">
+        We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+        got a favourite you’d like us to prioritize.
+      </p>
+    </div>
+    <div class="container-fluid my-5 d-md-flex justify-content-around">
+      <div class="col-md-3 d-flex flex-column align-items-center shadow rounded h-100" >
+        <img src="./images/logo-chrome.svg" class="w-80" alt="google">
+        <p class="mt-3 font-weight-bold ">Add to chrome</p>
+        <p class="req_para1">Minimum version 62</p>
+        <img src="./images/bg-dots.svg" class="w-100 mb-3" alt="dots">
+        <button class="btn btn-primary req_para1 mb-3">Add & install extension</button>
+      </div>
+      <div class="down1 offset-md-1 col-md-3 d-flex flex-column align-items-center shadow rounded h-100"  >
+        <img src="./images/logo-firefox.svg" class="w-80" alt="google">
+        <p class="mt-3 font-weight-bold ">Add to firefox</p>
+        <p class="req_para1">Minimum version 55</p>
+        <img src="./images/bg-dots.svg" class="w-100 mb-3" alt="dots">
+        <button class="btn btn-primary req_para1 mb-3">Add & install extension</button>
+      </div>
+      <div class="down2 offset-md-1 col-md-3 d-flex flex-column align-items-center shadow rounded h-100"  >
+        <img src="./images/logo-opera.svg" class="w-80" alt="google">
+        <p class="mt-3 font-weight-bold ">Add to opera</p>
+        <p class="req_para1">Minimum version 46</p>
+        <img src="./images/bg-dots.svg" class="w-100 mb-3" alt="dots">
+        <button class="btn btn-primary req_para1 mb-3">Add & install extension</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <p class="col-12 text-center h2 mb-3">
+      Frequently Asked Questions
+    </p>
+    <p class="col-12 text-center">
+      Here are some of our FAQs. If you have any other questions you’d like 
+      answered please feel free to email us.
+    </p>
+    <div class="col-md-8 col-10 offset-md-2 offset-1 mt-5">
+      <div class="col-12 border-top border-bottom ">
+        <div class="d-flex justify-content-between align-items-center">
+          <p class="col-8 mt-3 ">
+            What is bookmark?
+          </p>
+          <img src="./images/icon-arrow.svg" alt="close" class="that" style="width: 5%; height: 30%;">
+        </div>
+        <p class="col-12 d-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+          justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+      </div>
+      <div class="col-12 border-top border-bottom ">
+        <div class="d-flex justify-content-between align-items-center">
+          <p class="col-8 mt-3 ">
+            How can I request a new browser?
+          </p>
+          <img src="./images/icon-arrow.svg" alt="close" class="that" style="width: 5%; height: 30%;">
+        </div>
+        <p class="col-12 d-none">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+          Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+          ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+          Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+      </div>
+      <div class="col-12 border-top border-bottom ">
+        <div class="d-flex justify-content-between align-items-center">
+          <p class="col-8 mt-3 ">
+            Is there a mobile app?
+          </p>
+          <img src="./images/icon-arrow.svg" alt="close" class="that" style="width: 5%; height: 30%;">
+        </div>
+        <p class="col-12 d-none">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+          urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+          sollicitudin ex et ultricies bibendum.</p>
+      </div>
+      <div class="col-12 border-top border-bottom ">
+        <div class="d-flex justify-content-between align-items-center">
+          <p class="col-8 mt-3 ">
+            What about other chromium browsers?
+          </p>
+          <img src="./images/icon-arrow.svg" alt="close" class="that" style="width: 5%; height: 30%;">
+        </div>
+        <p class="col-12 d-none">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+        vitae neque eget nisl gravida pellentesque non ut velit.</p>
+      </div>
+    </div>
+    <button class="offset-4 offset-md-5 col-md-2 col-4 btn btn-primary mt-3 mb-5">More info</button>
+  </div>
+  <div class="container-fluid text-light bg-primary">
+    <p class="col-12 text-center pt-5">35,000+ Already registered</p>
+    <p class="col-md-12 offset-1 offset-md-0 col-10 text-center h2 ">Stay up-to-date with what we are doing</p>
+    <form  class="py-5 col-md-4 offset-md-4 form-group d-md-flex">
+      <div class="col-md-6 form-control position-relative d-flex justify-content-around">
+        <input type="text" placeholder="Email address" class="email w-100" style="border: none; outline: none;">
+        <img src="./images/icon-error.svg" class="d-none" alt="error">
+        <p class="text-danger mt-1 mb-5 text-light position-absolute bg-danger d-none error_para" style="font-size: 0.8rem; width: 100%; left: 0; top: 90%;">The email format is not correct.</p>
+      </div>
+      <button class="btn btn-danger mt-md-0 mt-4 ml-md-3 col-md-6 col-12" type="submit">Contact Us</button>
+    </form>
+  </div>
+    <nav class=" container-fluid col navbar navbar-expand-md d-flex flex-column flex-md-row">
+      <a href="#" class="ml-5 navbar-brand"><img src="./images/logo-bookmark.svg" class="img-filter" alt="logo"></a>
+      <ul class="navbar-nav ml-3">
+        <li class="nav-item"><a href="#" class="nav-link text-uppercase text-light">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-uppercase text-light">contact</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-uppercase text-light">Pricing</a></li>
+      </ul>
+    </nav>
+</body>
+<script src="app.js"></script>
+</html>

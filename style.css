@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col {
+    background-color: hsl(229, 31%, 21%);
+}
+.that {
+    cursor: pointer;
+}
+.hov:hover {
+    cursor: pointer;
+    border-bottom: 2px solid hsl(0, 94%, 66%);
+}
+.line {
+    width: 100%;
+    bottom: 0;
+}
+.down1 {
+    margin-top: 50px;
+}
+.down2 {
+    margin-top: 100px;
+}
+@media screen and (max-width: 1200px) {
+    .req_head {
+        font-size: 1.3rem;
+    }
+    .req_para {
+        font-size: 0.8rem;
+    }
+    .req_para1 {
+        font-size: 0.6rem;
+    }
+}
+.img-filter {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(339deg) brightness(105%) contrast(101%);
+}
+.error {
+    border: 2px solid red;
+}
+
+/* animation classes.... */
+.rotate {
+    transform: rotate(180deg);
+    transition: transform 0.2s linear;
+}
+.rotate_opp {
+    transform: rotate(0deg);
+    transition: transform 0.2s linear;
+}
